@@ -1,0 +1,49 @@
+.footerContainer {
+  background-color: #2C3064; 
+  font-family: 'Calibri', serif;
+  color: #C7E4E8;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50%;
+}
+
+.section {
+  flex: 1 1 250px;
+}
+
+.section h3 {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.inputEmail {
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.address,
+.links,
+.contact,
+.socials {
+  margin-bottom: 16px;
+}
+
+.link {
+  display: block;
+  margin-bottom: 8px;
+  color: rgb(33, 37, 41);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
