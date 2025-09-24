@@ -17,9 +17,9 @@ function App() {
   <Navbar />
   <Home />
   <Features />
-  {/* 
   <Speciality />
-  <Highlights />
+  <Highlights />s
+  {/* 
   <Partnerships />
   <Characteristics />
   <Testimonials />

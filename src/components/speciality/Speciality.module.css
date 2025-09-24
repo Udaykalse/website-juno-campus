@@ -1,0 +1,127 @@
+.specialityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 80px;
+    background: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+        width: 70%;
+    margin-left: 15%;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 50%;
+}
+
+.mainImage {
+
+    width: 100%;
+    max-width: 471px;
+    z-index: 5;
+    position: absolute;
+    margin-top: -43%;
+    margin-left: -1%;
+
+}
+
+.subImage {
+    position: absolute;
+    width: 100px;
+    opacity: 0;
+    transform: translateX(0) translateY(0) scale(0.5);
+    transition: all 0.5s 
+cubic-bezier(.25, .46, .45, .94);
+    z-index: 1;
+}
+
+.animating_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imageWrapper:hover .subImage:nth-child(2) {
+    opacity: 1;
+    transform: translateX(200px) translateY(-200px) scale(1);
+}
+
+.imageWrapper:hover .subImage:nth-child(3) {
+    opacity: 1;
+    transform: translateX(-200px) translateY(-200px) scale(1);
+}
+
+.imageWrapper:hover .subImage:nth-child(4) {
+    opacity: 1;
+    transform: translateX(200px) translateY(200px) scale(1);
+}
+
+.imageWrapper:hover .subImage:nth-child(5) {
+    opacity: 1;
+    transform: translateX(-200px) translateY(200px) scale(1);
+}
+
+.img-fluid,
+.img-thumbnail {
+    height: auto;
+    max-width: 100%;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.textWrapper {
+    width: 50%;
+}
+
+.textWrapper h1 {
+    color: #213053;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.textWrapper h4 {
+    color: #656565;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.textWrapper p {
+    color: #9db1bc;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.demoButton {
+    background-color: #1139cb;
+    border: none;
+    border-radius: 20px;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .9px;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.3s ease;
+}
+
+.demoButton:hover {
+    background-color: #0d2ba5;
+}
