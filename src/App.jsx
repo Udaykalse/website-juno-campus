@@ -11,6 +11,7 @@ import Demo from './components/demo/Demo'
 import Footer from './components/footer/Footer'
 import Bottom from './components/footer/Bottom'
 
+
 function App() {
   return (
 <div style={{ backgroundColor: "rgb(228, 238, 254)" }}>
@@ -18,11 +19,11 @@ function App() {
   <Home />
   <Features />
   <Speciality />
-  <Highlights />s
-  {/* 
+  <Highlights />
   <Partnerships />
   <Characteristics />
   <Testimonials />
+  {/* 
   <Demo /> */}
   <Footer />
   <Bottom />
