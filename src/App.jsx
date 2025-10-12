@@ -7,7 +7,7 @@ import Highlights from './components/highlights/Highlights'
 import Partnerships from './components/partnerships/Partnerships'
 import Characteristics from './components/characteristics/Characteristics'
 import Testimonials from './components/testimonials/Testimonials'
-import Demo from './components/demo/Demo'
+import Demo from './components/demo/demo'
 import Footer from './components/footer/Footer'
 import Bottom from './components/footer/Bottom'
 
@@ -23,8 +23,7 @@ function App() {
   <Partnerships />
   <Characteristics />
   <Testimonials />
-  {/* 
-  <Demo /> */}
+  <Demo /> 
   <Footer />
   <Bottom />
 </div>
