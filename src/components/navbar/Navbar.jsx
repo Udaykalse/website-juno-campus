@@ -2,7 +2,10 @@ import React, { useState } from 'react'
 import styles from './Navbar.module.css'
 import Logo from './../../assets/junologo.png'
 import { FaChevronDown } from 'react-icons/fa'
+<<<<<<< HEAD
 import chatlogo from './../../assets/open-chat.png'
+=======
+>>>>>>> 5a3131df4ab2ec053d999dba8b8aa1333cbc6c14
 
 function Navbar() {
   const [aboutOpen, setAboutOpen] = useState(false)
@@ -57,6 +60,7 @@ function Navbar() {
           <button className={styles.contactButton}>Request a Demo</button>
         </li>
       </ul>
+<<<<<<< HEAD
 
        <button
     aria-label="Open Chat"
@@ -68,6 +72,8 @@ function Navbar() {
       className={styles.chatIcon}
     />
   </button>
+=======
+>>>>>>> 5a3131df4ab2ec053d999dba8b8aa1333cbc6c14
     </nav>
   )
 }
