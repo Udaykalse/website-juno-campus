@@ -1,0 +1,129 @@
+.navbar {
+  background-color: transparent;
+  color: #000010;
+  display: flex;
+  font-family: "Calibri", serif;
+  align-items: center;
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 10%;
+  padding: 25px 0;
+}
+
+.logoImage {
+  width: 105px;
+}
+
+.CompanyName {
+  font-family: "Calibri", serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0f4ea3;
+  display: inline;
+  font-size: 30px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.menu {
+  display: flex;
+  flex-basis: auto;
+  width: 50%;
+  gap: 10%;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.contactButton {
+  background-color: #1139cb;
+  border-color: #1139cb;
+  border-radius: 20px;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  padding: 15px 25px !important;
+}
+.contactButton:hover {
+  background-color: #98ca43;
+}
+.menuItem {
+  position: relative;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  color: #000010;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 12px 0;
+  width: 200px;
+  z-index: 20;
+}
+
+.dropdownItem {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: "Calibri", serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+}
+
+.chatButton {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 60px;
+  width: 60px;
+  z-index: 1100;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(17, 57, 203);
+  color: rgb(17, 57, 203);
+  cursor: pointer;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px;
+}
+
+.chatIcon {
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.chatButton:hover {
+  transform: scale(1.05);
+}

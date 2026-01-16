@@ -1,0 +1,160 @@
+.footer {
+  background: #2c3064;
+  color: #b4b6c4;
+  padding: 60px 40px;
+  font-family: Calibri, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  width: 80%;
+}
+
+.newsletter_content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.newsletter_content p {
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.newsletter_form {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter_form input {
+  padding: 15px;
+  width: 320px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputDiv {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  width: 465px;
+}
+
+.btnPrimary {
+  background: #1139cb;
+  color: #fff;
+  padding: 20px 34px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnPrimary:hover {
+  background: #98ca43;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 50px 0;
+}
+
+/* Footer Main */
+.footerMain {
+  /* display: flex;
+  gap: 40px;
+  flex-wrap: wrap; */
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerCol {
+  width: 90%;
+  padding-left: 18%;
+}
+
+.finfoDiv {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 20%;
+}
+
+.flogoMDiv {
+  display: flex;
+  gap: 20%;
+}
+
+
+/* 
+
+display: flex;
+    align-items: baseline;
+    gap: 10px;
+*/
+
+.footerCol1 h3,
+.footerCol h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.footerCol1 a,
+.footerCol a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #b4b6c4;
+  text-decoration: none;
+}
+.footerCol1 a:hover,
+.footerCol a:hover {
+  color: #fff;
+}
+
+.addressBox h4 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.addressBox p {
+  font-size: 14px;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.email {
+  margin-top: 15px;
+}
+
+/* Social Icons */
+.socials {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.socials svg {
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+.characteristicsSection {
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    background: #E4ECFF;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading h1 {
+  color: #1d396b;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.heading p {
+  color: #1d396b;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+      width: 65%;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  color: #848484;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #1d396b;
+  transition: all 0.3s ease;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #848484; 
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  background: #1139cb;
+}
+
+
+
+.card:hover h2,
+.card:hover p {
+  color: #fff;
+}
