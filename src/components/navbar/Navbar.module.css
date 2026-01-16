@@ -1,5 +1,5 @@
 .navbar {
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
   background-color: transparent;
   color: #000010;
   display: flex;
@@ -127,8 +127,8 @@ li {
 
 .chatButton:hover {
   transform: scale(1.05);
-}
-=======
+/* } */
+/* ======= */
     background-color: transparent;
     color: #000010;
     display: flex;
@@ -231,4 +231,3 @@ background-color: #98ca43;
 .dropdownItem:hover {
     background-color: #f0f0f0;
 }
->>>>>>> 5a3131df4ab2ec053d999dba8b8aa1333cbc6c14

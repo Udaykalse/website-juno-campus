@@ -58,9 +58,8 @@ function Footer() {
               <div>
                 <h4>Sales Office</h4>
                 <p>
-                  #2, 2nd Floor, Singh House,
-                  <br />
-                  Fort, Mumbai 400001
+                  #2, 2nd Floor, Singh House, <br /> Plot #23/25, Ambalal Doshi
+                  Marg, <br /> Fort, Mumbai 400001
                 </p>
               </div>
             </div>
@@ -95,12 +94,12 @@ function Footer() {
           <div className={styles.footerCol1}>
             <h3>Get in Touch</h3>
             <a href="/contact-us">Contact</a>
+            <a href="/#">Socials</a>
 
             <div className={styles.socials}>
-              <FaFacebook />
+              <FaInstagram />
               <FaTwitter />
               <FaLinkedin />
-              <FaInstagram />
             </div>
           </div>
         </div>

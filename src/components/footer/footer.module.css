@@ -1,5 +1,5 @@
 .footer {
-  background: #2c3064;
+  background: #1d396b;
   color: #b4b6c4;
   padding: 60px 40px;
   font-family: Calibri, sans-serif;
@@ -73,6 +73,9 @@
   margin: 50px 0;
 }
 
+.flogoDiv {
+  width: 300px;
+}
 /* Footer Main */
 .footerMain {
   /* display: flex;
@@ -88,6 +91,7 @@
 .footerCol {
   width: 90%;
   padding-left: 18%;
+  padding-bottom: 3%;
 }
 
 .finfoDiv {
@@ -95,21 +99,23 @@
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  gap: 20%;
+  gap: 10%;
 }
 
 .flogoMDiv {
   display: flex;
-  gap: 20%;
+  gap: 15%;
 }
-
-
-/* 
-
-display: flex;
-    align-items: baseline;
-    gap: 10px;
-*/
+.flogoBDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.addressBox {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
 
 .footerCol1 h3,
 .footerCol h3 {
